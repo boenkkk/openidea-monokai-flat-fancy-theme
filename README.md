@@ -65,7 +65,7 @@ part of the package.
 
 ## Contributing
 
-If you found a problem, or have a feature request, please open an [issue](https://github.com/boenkkk/openidea-monokai-flat-fancy/issues) about it.
+If you found a problem, or have a feature request, please open an [issue](https://github.com/boenkkk/openidea-monokai-flat-fancy-theme/issues) about it.
 
 ## License
 
