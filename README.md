@@ -1,3 +1,5 @@
+<img src="icons/monokai-flat-fancy.svg" width="72" height="72" alt="Monokai Flat Fancy icon">
+
 # Monokai Flat Fancy Theme for OpenIDEA
 
 [Monokai Flat Fancy](https://github.com/boenkkk/monokai-flat-fancy) for
@@ -30,11 +32,16 @@ the plugin and press **Apply** next to the variant you want.
 
 ## Capabilities
 
-None. This is a data-only plugin: six JSON files (`*.theme.json`, `*.scheme.json`). It
-runs no code and asks for no network, process or file system access.
+None. This is a data-only plugin: six JSON files (`*.theme.json`, `*.scheme.json`) and
+one SVG icon (`icons/monokai-flat-fancy.svg`). It runs no code and asks for no network,
+process or file system access.
 
 ## Notes
 
+- **Icon.** `icons/monokai-flat-fancy.svg` is a vector redraw of the extension's icon —
+  the Fibonacci snippet in the theme's syntax colours on `#1e1f1c` — because OpenIDEA
+  package icons must be SVG (at most 16 KiB). The PNG the extension ships cannot be
+  used directly.
 - **Accent.** The extension fills badges and buttons with `#0f649c`. On the dark
   backgrounds that is only 2.6:1 as text, so Default and Darker use the extension's own
   bright blue (`terminal.ansiBrightBlue`, `#819aff`) where OpenIDEA paints text and

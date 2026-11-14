@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#1e1f1c"/>
+  <g font-family="Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10">
+    <text x="41" y="101" fill="#d3d3d3"><tspan fill="#f92672">static</tspan> <tspan fill="#f92672">void</tspan> <tspan fill="#a6e22e">printFibonacci</tspan>(<tspan fill="#f92672">int</tspan> <tspan fill="#fd971f">count</tspan>) {</text>
+    <text x="53" y="115" fill="#d3d3d3"><tspan fill="#f92672">if</tspan>(count<tspan fill="#f92672">&gt;</tspan><tspan fill="#ae81ff">0</tspan>) {</text>
+    <text x="65" y="129" fill="#d3d3d3">n3 <tspan fill="#f92672">=</tspan> n1 <tspan fill="#f92672">+</tspan> n2;</text>
+    <text x="65" y="143" fill="#d3d3d3">n1 <tspan fill="#f92672">=</tspan> n2;</text>
+    <text x="65" y="157" fill="#d3d3d3">n2 <tspan fill="#f92672">=</tspan> n3;</text>
+    <text x="65" y="171" fill="#d3d3d3"><tspan fill="#66d9ef">System</tspan>.out.<tspan fill="#a6e22e">print</tspan>(<tspan fill="#e6db74">" "</tspan> <tspan fill="#f92672">+</tspan> n3);</text>
+    <text x="65" y="185" fill="#d3d3d3"><tspan fill="#a6e22e">printFibonacci</tspan>(count<tspan fill="#f92672">-</tspan><tspan fill="#ae81ff">1</tspan>);</text>
+    <text x="53" y="199" fill="#d3d3d3">}</text>
+    <text x="41" y="213" fill="#d3d3d3">}</text>
+  </g>
+</svg>
